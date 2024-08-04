@@ -16,9 +16,6 @@ function initAppSearch() {
                     $.ajax({
                         url: "CSSynergyXAppSearchCallback.aspx?Action=1&InputSearch=" + request.term,
                         dataType: "json",
-                        data: {
-                            term: request.term
-                        },
                         success: function( data ) {
                             response( $.map(data, function( item ) {
                                 return {
