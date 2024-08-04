@@ -39,6 +39,9 @@ function initAppSearch() {
                     if (waitMessage !== undefined) {
                         waitMessage.show();
                     }
+                },
+                open: function () {
+                    $(this).data('ui-autocomplete').menu.element.scrollTop(0);
                 }
             }).data("ui-autocomplete")._renderItem = function (ul, item) {
                 return $("<li>")
