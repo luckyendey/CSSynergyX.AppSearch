@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<applications> 
+  <application id="GLMSysCIPendingSearch.aspx">
+    <title>
+      <caption id="35108">Pending</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysCIPendingSearch.aspx</link>
+  </application>
+  <application id="GLMSysCILogSearch.aspx">
+    <title>
+      <caption id="218">Log</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysCILogSearch.aspx</link>
+  </application>
+  <application id="GLMSysCIProviderList.aspx">
+    <title>
+      <caption id="5591">Providers</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysCIProviderList.aspx</link>
+  </application>
+  <application id="GLMSysCIConnectionList.aspx">
+    <title>
+      <caption id="27055">Connection</caption>      
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysCIConnectionList.aspx</link>    
+  </application>
+  <application id="GLMSysCIEntityList.aspx">
+    <title>
+      <caption id="34251">Entities</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysCIEntityList.aspx</link>
+  </application>
+  <application id="GLMSysCIEntityMappingList.aspx">
+    <title>
+      <caption id="34662">Mapping</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysCIEntityMappingList.aspx</link>
+  </application>
+  <application id="GLMSysCIDataLinkSearch.aspx">
+    <title>
+      <caption id="0">Data Link</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysCIDataLinkSearch.aspx</link>
+  </application>
+  <application id="GLMSysCIDataLinkMaint.aspx">
+    <title>
+      <caption id="0">Data Link</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysCIDataLinkMaint.aspx?BCAction=0</link>
+  </application>
+  <application id="GLMSysCIImportTemplates">
+    <title>
+      <caption id="7440">Import</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysCIImport.aspx</link>
+  </application>
+  <application id="GLMSysCIExportTemplates">
+    <title>
+      <caption id="8577">Export</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysCIExport.aspx</link>
+  </application>
+  <application id="GLMSysCISettings.aspx">
+    <title>
+      <caption id="19616">Settings</caption>
+    </title>
+    <link>GLMSysCISettings.aspx</link>
+  </application>
+  <application id="GLMSysCIViewNew">
+    <title>
+      <caption id="20180">Create</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysCIViewMaint.aspx?BCAction=0</link>
+  </application>
+  <application id="GLMSysCIViewList">
+    <title>
+      <caption id="24737">List</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysCIViewList.aspx</link>
+  </application>
+  <application id="GLMSysCIViewSectionList">
+    <title>
+      <caption id="11133">Section</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysCIViewSectionList.aspx</link>
+  </application>
+  <application id="GLMSysCIViewMonitorList">
+    <title>
+      <caption id="225">Monitor</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysCIViewMonitorList.aspx</link>
+  </application>
+  <application id="GLMSysCIPlaceHolderRow1Col1_1">
+    <title>
+      <caption id="0"></caption>
+    </title>
+    <link>GLMSysCIDynamicList.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheck</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="GLMSysCIPlaceHolderRow1Col1_2">
+    <title>
+      <caption id="0"></caption>
+    </title>
+    <link>GLMSysCIDynamicList.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheck</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="GLMSysCIPlaceHolderRow1Col1_3">
+    <title>
+      <caption id="0"></caption>
+    </title>
+    <link>GLMSysCIDynamicList.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheck</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="GLMSysCIPlaceHolderRow1Col2_1">
+    <title>
+      <caption id="0"></caption>
+    </title>
+    <link>GLMSysCIDynamicList.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheck</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="GLMSysCIPlaceHolderRow1Col2_2">
+    <title>
+      <caption id="0"></caption>
+    </title>
+    <link>GLMSysCIDynamicList.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheck</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="GLMSysCIPlaceHolderRow1Col2_3">
+    <title>
+      <caption id="0"></caption>
+    </title>
+    <link>GLMSysCIDynamicList.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheck</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="GLMSysCIPlaceHolderRow2Col1_1">
+    <title>
+      <caption id="0"></caption>
+    </title>
+    <link>GLMSysCIDynamicList.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheck</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="GLMSysCIPlaceHolderRow2Col1_2">
+    <title>
+      <caption id="0"></caption>
+    </title>
+    <link>GLMSysCIDynamicList.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheck</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="GLMSysCIPlaceHolderRow2Col1_3">
+    <title>
+      <caption id="0"></caption>
+    </title>
+    <link>GLMSysCIDynamicList.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheck</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="GLMSysCIPlaceHolderRow2Col2_1">
+    <title>
+      <caption id="0"></caption>
+    </title>
+    <link>GLMSysCIDynamicList.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheck</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="GLMSysCIPlaceHolderRow2Col2_2">
+    <title>
+      <caption id="0"></caption>
+    </title>
+    <link>GLMSysCIDynamicList.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheck</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="GLMSysCIPlaceHolderRow2Col2_3">
+    <title>
+      <caption id="0"></caption>
+    </title>
+    <link>GLMSysCIDynamicList.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheck</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="GLMSysCIRulesNew">
+    <title>
+      <caption id="20180">Create</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysRuleMaint.aspx?BCAction=0</link>
+  </application>
+  <application id="GLMSysCIRulesNewGroup">
+    <title>
+      <caption id="43077">Create Group</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysRulesGroupMaint.aspx?BCAction=0</link>
+  </application>
+  <application id="GLMSysCIRulesList">
+    <title>
+      <caption id="8788">Search</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysRulesList.aspx</link>
+  </application>
+  <application id="GLMSysCIRulesLog">
+    <title>
+      <caption id="218">Log</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysRulesLog.aspx</link>
+  </application>
+  <application id="GLMSysCIRulesReport">
+    <title>
+      <caption id="358">Report</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysRulesReport.aspx</link>
+  </application>
+  <application id="GLMSysCIRulesImport">
+    <title>
+      <caption id="9289">Rules</caption>
+      <caption id="8634">:Import</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysRulesImport.aspx</link>
+  </application>
+  <application id="GLMSysCIRulesExport">
+    <title>
+      <caption id="9289">Rules</caption>
+      <caption id="17083">:Export</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysRulesExport.aspx</link>
+  </application>
+  <application id="GLMSysCIRulesSettings">
+    <title>
+      <caption id="9289">Rules</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysRulesSettings.aspx</link>
+  </application>
+  <application id="GLMSysCoreSettings">
+    <title>
+      <caption id="39343">Email</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysCoreSettings.aspx</link>
+  </application>
+  <application id="GLMSysCoreEmailLog.aspx">
+    <title>
+      <caption id="0">Log: Email</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysCoreEmailLog.aspx</link>
+  </application>
+  <application id="GLMSysWorkflowPlusGenerateLinesView.aspx">
+    <title>
+      <caption id="0">Generate Line Views</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysWorkflowPlusGenerateLinesView.aspx</link>
+  </application>
+  <application id="GLMSysCICrystalReportSetting">
+    <title>
+      <caption id="19616">Setting</caption>
+    </title>
+    <constraints>
+      <extension>
+        <assembly>GLMSys.CI.PageExtension</assembly>
+        <type>GLMSys.CI.PageExtension.MenuCheckLicense</type>
+      </extension>
+    </constraints>
+    <link>GLMSysRulesCrystalReportMaint.aspx</link>
+  </application>
+  <application id="GLMSysLicenseUpdate.aspx">
+    <title>
+      <caption id="1103">Update</caption>
+    </title>
+    <link>GLMSysLicenseUpdate.aspx</link>
+  </application>
+</applications>

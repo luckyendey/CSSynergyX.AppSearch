@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<applications>
+  <!--System, Report -->
+  <application id="SysAppStats.aspx?_View=1&amp;ViewState=1">
+    <title>
+      <caption id="13">Resources</caption>
+    </title>
+    <link>SysAppStats.aspx?_View=1&amp;ViewState=1</link>
+  </application>
+  <application id="SysAppStats.aspx?_View=0&amp;ViewState=0">
+    <title>
+      <caption id="32391">Applications</caption>
+    </title>
+    <link>SysAppStats.aspx?_View=0&amp;ViewState=0</link>
+  </application>
+  <application id="SysAppLogHour.aspx">
+    <title>
+      <caption id="1723">Hours</caption>
+    </title>
+    <link>SysAppLogHour.aspx</link>
+  </application>
+  <application id="SysAppLogTopDays.aspx">
+    <title>
+      <caption id="10703">History</caption>
+    </title>
+    <link>SysAppLogTopDays.aspx</link>
+  </application>
+  <application id="SysCurrentActivity.aspx">
+    <title>
+      <caption id="3201">Activity</caption>
+      <caption id="27635">:Current</caption>
+    </title>
+    <link>SysCurrentActivity.aspx</link>
+  </application>
+  <application id="SysReadRecent.aspx">
+    <title>
+      <caption id="3201">Activity</caption>
+      <caption id="10703">:History</caption>
+    </title>
+    <link>SysReadRecent.aspx</link>
+  </application>
+  <application id="SysSessionContent.aspx">
+    <title>
+      <caption id="333">Session</caption>
+    </title>
+    <link>SysSessionContent.aspx</link>
+  </application>
+  <application id="SysAppLog.aspx">
+    <title>
+      <caption id="6201">Application</caption>
+    </title>
+    <link>SysAppLog.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckViewLogRight</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SysDataLog.aspx">
+    <title>
+      <caption id="8515">Data</caption>
+    </title>
+    <link>SysDataLog.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckViewLogRight</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SysErrorLog.aspx">
+    <title>
+      <caption id="4493">Error</caption>
+    </title>
+    <link>SysErrorLog.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckViewLogRight</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SysProcessLog.aspx">
+    <title>
+      <caption id="23094">Processes</caption>
+    </title>
+    <link>SysProcessLog.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckViewLogRight</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SysPerformance.aspx">
+    <title>
+      <caption id="778">Performance</caption>
+    </title>
+    <link>SysPerformance.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckViewLogRight</type>
+      </extension>
+      <allow>
+        <license>
+          <option>1011</option>
+        </license>
+      </allow>
+    </constraints>
+  </application>
+  <application id="SysLoginLog.aspx">
+    <title>
+      <caption id="290">Login</caption>
+    </title>
+    <link>SysLoginLog.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckViewLogRight</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SysLicenseLog.aspx">
+    <title>
+      <caption id="9749">License</caption>
+    </title>
+    <link>SysLicenseLog.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckLicenseLogSetting</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SysDatabaseStats.aspx">
+    <title>
+      <caption id="7513">Tables</caption>
+    </title>
+    <link>SysDatabaseStats.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckIsAdmin</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SysDatabaseLocations.aspx">
+    <title>
+      <caption id="14503">File groups</caption>
+    </title>
+    <link>SysDatabaseLocations.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckFileGroupsSettings</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SysFiles.aspx">
+    <title>
+      <caption id="5888">Files</caption>
+    </title>
+    <link>SysFiles.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckIsAdmin</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="ELISMonitor.aspx">
+    <title>
+      <caption id="225">Monitor</caption>
+    </title>
+    <link>ELISMonitor.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckELISMonitorSettings</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="ELISEventMonitor.aspx">
+    <title>
+      <caption id="0">Event Monitor</caption>
+    </title>
+    <link>ELISEventMonitor.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckELISMonitorSettings</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="ELISSolutions.aspx">
+    <title>
+      <caption id="14317">Solutions</caption>
+    </title>
+    <link>ELISSolutions.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckELISConfigurationSettings</type>
+      </extension>
+    </constraints>
+  </application>
+  <!--System, Setup -->
+  <application id="WflCalendarSettings.aspx">
+    <title>
+      <caption id="8422">Calendar</caption>
+    </title>
+    <link>WflCalendarSettings.aspx</link>
+  </application>
+  <application id="LogProcessTypes.aspx">
+    <title>
+      <caption id="23094">Processes</caption>
+    </title>
+    <link>LogProcessTypes.aspx</link>
+  </application>
+  <application id="SysSettings.aspx">
+    <title>
+      <caption id="5614">All</caption>
+    </title>
+    <link>SysSettings.aspx</link>
+  <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckViewSettingRight</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="MenuCustomize.aspx">
+    <title>
+      <caption id="35284">Preferences</caption>
+    </title>
+    <link>MenuCustomize.aspx</link>
+    <constraints>
+      <allow>
+        <securitylevel>10</securitylevel>
+      </allow>
+    </constraints>
+  </application>
+  <application id="Menu.aspx">
+    <title>
+      <caption id="16514">Menu</caption>
+    </title>
+    <link>Menu.aspx</link>
+    <constraints>
+      <allow>
+        <securitylevel>10</securitylevel>
+      </allow>
+    </constraints>
+  </application>
+  <application id="SysLogOff.aspx">
+    <title>
+      <caption id="6167">Log off</caption>
+    </title>
+    <link>SysLogOff.aspx</link>
+    <constraints>
+      <allow>
+        <delegated />
+      </allow>
+    </constraints>
+  </application>
+  <application id="SysDataLogSettings.aspx">
+    <title>
+      <caption id="218">Log</caption>
+      <caption id="8515">:Data</caption>
+    </title>
+    <link>SysDataLogSettings.aspx</link>
+  </application>
+  <application id="SysLogSettings.aspx">
+    <title>
+      <caption id="218">Log</caption>
+      <caption id="27274">:Truncate</caption>
+    </title>
+    <link>SysLogSettings.aspx</link>
+  </application>
+  <application id="SysQueryTimeOuts.aspx">
+    <title>
+      <caption id="13207">Query</caption>
+      <caption id="5910">:Duration</caption>
+      <caption id="1145">Maximum</caption>
+    </title>
+    <link>SysQueryTimeOuts.aspx</link>
+  </application>
+  <application id="eExact-Schema.xsd">
+    <title>
+      <caption id="0">Schema: XML</caption>
+    </title>
+    <link>eExact-Schema.xsd</link>
+  </application>
+  <application id="XMLDocumentation.aspx?Action=1">
+    <title>
+      <caption id="0">Schema</caption>
+      <caption id="7226">:Document</caption>
+    </title>
+    <link>XMLDocumentation.aspx?Action=1</link>
+  </application>
+  <application id="SysDelegation.aspx">
+    <title>
+      <caption id="328">Delegation</caption>
+    </title>
+    <link>SysDelegation.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.SecurityExtension</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SysRoles.aspx">
+    <title>
+      <caption id="27461">Roles</caption>
+    </title>
+    <link>SysRoles.aspx</link>
+  </application>
+  <application id="SysFunctions.aspx">
+    <title>
+      <caption id="6172">Function rights</caption>
+    </title>
+    <link>SysFunctions.aspx</link>
+  </application>
+  <application id="SysAccessServers.aspx">
+    <title>
+      <caption id="329">Servers</caption>
+    </title>
+    <link>SysAccessServers.aspx</link>
+  </application>
+  <application id="SysMetadataExport.aspx">
+    <title>
+      <caption id="8577">Export</caption>
+    </title>
+    <link>SysMetadataExport.aspx</link>
+  </application>
+  <application id="SysMetadataImport.aspx">
+    <title>
+      <caption id="7440">Import</caption>
+    </title>
+    <link>SysMetadataImport.aspx</link>
+  </application>
+  <application id="XMLUpload.aspx?ui=1">
+    <title>
+      <caption id="7440">Import</caption>
+    </title>
+    <link>XMLUpload.aspx?ui=1</link>
+  </application>
+  <application id="XMLDownload.aspx?ui=1">
+    <title>
+      <caption id="8577">Export</caption>
+    </title>
+    <link>XMLDownload.aspx?ui=1</link>
+  </application>
+  <application id="XMLTopics.aspx">
+    <title>
+      <caption id="775">Topics</caption>
+    </title>
+    <link>XMLTopics.aspx</link>
+  </application>
+  <application id="XMLStatus.aspx">
+    <title>
+      <caption id="1644">Results</caption>
+    </title>
+    <link>XMLStatus.aspx</link>
+  </application>
+  <application id="XMLReplicationSources.aspx">
+    <title>
+      <caption id="776">Replication</caption>
+      <caption id="7948">-Sources</caption>
+    </title>
+    <link>XMLReplicationSources.aspx</link>
+  </application>
+  <application id="XMLReplications.aspx">
+    <title>
+      <caption id="776">Replication</caption>
+      <caption id="777">-Targets</caption>
+    </title>
+    <link>XMLReplications.aspx</link>
+  </application>
+  <application id="SysCountries.aspx">
+    <title>
+      <caption id="8495">Countries</caption>
+    </title>
+    <link>SysCountries.aspx</link>
+  </application>
+  <application id="SysCountryClassifications.aspx">
+    <title>
+      <caption id="8495">Countries</caption>
+      <caption id="441">:Classifications</caption>
+    </title>
+    <link>SysCountryClassifications.aspx</link>
+  </application>
+  <application id="SysTimeZones.aspx">
+    <title>
+      <caption id="647">Time zones</caption>
+    </title>
+    <link>SysTimeZones.aspx</link>
+  </application>
+  <application id="SysTitles.aspx">
+    <title>
+      <caption id="1922">Titles</caption>
+    </title>
+    <link>SysTitles.aspx</link>
+  </application>
+  <application id="SysTermSearch.aspx">
+    <title>
+      <caption id="8788">Search</caption>
+    </title>
+    <link>SysTermSearch.aspx</link>
+  </application>
+  <application id="SysTermSearch.aspx?BCAction=1&amp;AllCustomized=1">
+    <title>
+      <caption id="994">Customized</caption>
+    </title>
+    <link>SysTermSearch.aspx?AllCustomized=1</link>
+  </application>
+  <application id="SysWords.aspx">
+    <title>
+      <caption id="771">Words</caption>
+    </title>
+    <link>SysWords.aspx</link>
+  </application>
+  <application id="SysNoiseWords.aspx">
+    <title>
+      <caption id="773">Noise words</caption>
+    </title>
+    <link>SysNoiseWords.aspx</link>
+  </application>
+  <application id="SysSynonyms.aspx">
+    <title>
+      <caption id="50244">Synonyms</caption>
+    </title>
+    <link>SysSynonyms.aspx</link>
+    <constraints>
+      <allow>
+        <functions>
+          <function>609</function>
+        </functions>
+      </allow>
+    </constraints>
+  </application>
+  <application id="SysLicenseInfo.aspx">
+    <title>
+      <caption id="4637">Info</caption>
+    </title>
+    <link>SysLicenseInfo.aspx</link>
+  </application>
+  <application id="SysLicenseUpdate.aspx">
+    <title>
+      <caption id="1103">Update</caption>
+    </title>
+    <link>SysLicenseUpdate.aspx</link>
+  </application>
+  <application id="SysLicenseRestore.aspx">
+    <title>
+      <caption id="6397">Restore</caption>
+    </title>
+    <link>SysLicenseRestore.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckLicenseRestore</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SysTrialLicenseMaint.aspx">
+    <title>
+      <caption id="18029">Trial</caption>
+    </title>
+    <link>SysTrialLicenseMaint.aspx</link>
+  </application>
+  <application id="SysLicenseSettings.aspx">
+    <title>
+      <caption id="274">Portal</caption>
+    </title>
+    <link>SysLicenseSettings.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckPortalLicenseSetting</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SysGracePeriodSetting.aspx">
+    <title>
+      <caption id="8799">Settings</caption>
+    </title>
+    <link>SysGracePeriodSetting.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckPartnerEmployeeLicenseSetting</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SysOTPList.aspx">
+    <title>
+      <caption id="43422">One Time Pass</caption>
+    </title>
+    <link>SysOTPList.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CreateViewOneTimePass</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="impersonate/SysNewDatabase.aspx?ShowClose=1">
+    <title>
+      <caption id="1355">New</caption>
+    </title>
+    <link>impersonate/SysNewDatabase.aspx?ShowClose=1</link>
+  </application>
+  <application id="SysSetupCompany.aspx">
+    <title>
+      <caption id="15408">Set up company</caption>
+    </title>
+    <link>SysSetupCompany.aspx</link>
+  </application>
+  <application id="SysSOIInstalls.aspx">
+    <title>
+      <caption id="10083">Installation</caption>
+      <caption id="35917">:Synergy Office Integration</caption>
+    </title>
+    <link>SysSOIInstalls.aspx</link>
+  </application>
+  <application id="SynergyExchange2007.msi">
+    <title>
+      <caption id="10083">Installation</caption>
+      <caption id="0">:Microsoft Exchange 2007 Background Job</caption>
+    </title>
+    <link>../cab/SynergyExchange2007.msi</link>
+  </application>
+  <application id="ExchangeIntegrator.msi">
+    <title>
+      <caption id="10083">Installation</caption>
+      <caption id="0">:Microsoft Exchange 2010 Integrator</caption>
+    </title>
+    <link>../cab/ExchangeIntegrator.msi</link>
+  </application>
+  <application id="ESEDocumentDownloader.msi">
+    <title>
+      <caption id="10083">Installation</caption>
+      <caption id="0">: Exact Synergy Enterprise Document Downloader</caption>
+    </title>
+    <link>../cab/ESEDocumentDownloader.msi</link>
+  </application>
+  <application id="ExactWordMerge x86.msi">
+    <title>
+      <caption id="10083">Installation</caption>
+      <caption id="0">: Exact Synergy Enterprise Word Merge (32-bit)</caption>
+    </title>
+    <link>../cab/ExactWordMerge x86.msi</link>
+  </application>
+  <application id="ExactWordMerge x64.msi">
+    <title>
+      <caption id="10083">Installation</caption>
+      <caption id="0">: Exact Synergy Enterprise Word Merge (64-bit)</caption>
+    </title>
+    <link>../cab/ExactWordMerge x64.msi</link>
+  </application>
+  <application id="DocSearch.aspx?SysSearch=1&amp;DocRepair=1">
+    <title>
+      <caption id="8550">Documents</caption>
+      <caption id="0">:Repair</caption>
+    </title>
+    <link>DocSearch.aspx?SysSearch=1&amp;DocRepair=1</link>
+  </application>
+  <application id="ERGroups.aspx">
+    <title>
+      <caption id="838">Explorer</caption>
+    </title>
+    <link>ERGroups.aspx</link>
+  </application>
+  <application id="CNFDTAPManagement.aspx">
+    <title>
+      <caption id="8799">Settings</caption>
+    </title>
+    <link>CNFDTAPManagement.aspx</link>
+  </application>
+  <application id="SysRebuildRepository.aspx">
+    <title>
+      <caption id="249">Rebuild</caption>
+    </title>
+    <link>SysRebuildRepository.aspx</link>
+  </application>
+  <!--
+	<application id="LogRepConsistencyChk.aspx">
+		<title>
+			<caption id="8480">Consistency check</caption>
+		</title>
+		<link>LogRepConsistencyChk.aspx</link>
+	</application>
+	<application id="LogRepCheckPurItems.aspx">
+		<title>
+			<caption id="8480">Consistency check</caption>
+			<caption id="8674">-Purchase</caption>
+			<caption id="9889">:Items</caption>
+		</title>
+		<link>LogRepCheckPurItems.aspx</link>
+	</application>
+	<application id="LogRepCheckSalesItems.aspx">
+		<title>
+			<caption id="8480">Consistency check</caption>
+			<caption id="8771">-Sales</caption>
+			<caption id="9889">:Items</caption>
+		</title>
+		<link>LogRepCheckSalesItems.aspx</link>
+		<constraints>
+			<allow>
+				<license>
+					<integrated />
+				</license>
+			</allow>
+		</constraints>
+	</application>
+	<application id="LogRepCheckSerialNum.aspx">
+		<title>
+			<caption id="8480">Consistency check</caption>
+			<caption id="8795">-Serial numbers</caption>
+		</title>
+		<link>LogRepCheckSerialNum.aspx</link>
+		<constraints>
+			<allow>
+				<license>
+					<integrated />
+				</license>
+			</allow>
+		</constraints>
+	</application>
+	<application id="LogRepChkItemAccounts.aspx">
+		<title>
+			<caption id="8480">Consistency check</caption>
+			<caption id="248">-G/L Accounts</caption>
+		</title>
+		<link>LogRepChkItemAccounts.aspx</link>
+	</application>
+	<application id="LogRepCheckPurAccount.aspx">
+		<title>
+			<caption id="8480">Consistency check</caption>
+			<caption id="2562">-Item Groups</caption>
+			<caption id="8674">:Purchase</caption>
+			<caption id="248">G/L Accounts</caption>
+		</title>
+		<link>LogRepCheckPurAccount.aspx</link>
+	</application>
+	<application id="LogRepCheckPaymentCondition.aspx">
+		<title>
+			<caption id="8480">Consistency check</caption>
+			<caption id="20006">-Invalid</caption>
+			<caption id="8445">:Payment conditions</caption>
+		</title>
+		<link>LogRepCheckPaymentCondition.aspx</link>
+	</application>
+	<application id="LogChkDeliveryMethod.aspx">
+		<title>
+			<caption id="8480">Consistency check</caption>
+			<caption id="20006">-Invalid</caption>
+			<caption id="11013">:Delivery method code</caption>
+		</title>
+		<link>LogChkDeliveryMethod.aspx</link>
+	</application>
+	<application id="LogRepChkSalesOrders.aspx">
+		<title>
+			<caption id="8480">Consistency check</caption>
+			<caption id="27670">-Missing</caption>
+			<caption id="1102">:Item Code</caption>
+			<caption id="12497">-Sales orders</caption>
+		</title>
+		<link>LogRepChkSalesOrders.aspx</link>
+		<constraints>
+			<allow>
+				<license>
+					<integrated />
+				</license>
+			</allow>
+		</constraints>
+	</application>
+	<application id="LogRepCheckInvoiceCodes.aspx">
+		<title>
+			<caption id="8480">Consistency check</caption>
+			<caption id="27670">-Missing</caption>
+			<caption id="8695">:Invoice codes</caption>
+		</title>
+		<link>LogRepCheckInvoiceCodes.aspx</link>
+		<constraints>
+			<allow>
+				<license>
+					<integrated />
+				</license>
+			</allow>
+		</constraints>
+	</application>
+	<application id="LogRepCheckSelectionCodes.aspx">
+		<title>
+			<caption id="8480">Consistency check</caption>
+			<caption id="27670">-Missing</caption>
+			<caption id="8792">:Selection</caption>
+			<caption id="4138">Code</caption>
+		</title>
+		<link>LogRepCheckSelectionCodes.aspx</link>
+		<constraints>
+			<allow>
+				<license>
+					<integrated />
+				</license>
+			</allow>
+		</constraints>
+	</application>
+	<application id="CRMRepair.aspx?Mode=1">
+		<title>
+			<caption id="291">Contacts</caption>
+		</title>
+		<link>CRMRepair.aspx?Mode=1</link>
+	</application>
+	<application id="CRMRepair.aspx?Mode=2">
+		<title>
+			<caption id="1670">Addresses</caption>
+		</title>
+		<link>CRMRepair.aspx?Mode=2</link>
+	</application>
+	<application id="CRMRepair.aspx?Mode=3">
+		<title>
+			<caption id="1">CRM</caption>
+			<caption id="6845">:Advanced</caption>
+		</title>
+		<link>CRMRepair.aspx?Mode=3</link>
+	</application>
+	<application id="CRMDoubleContacts.aspx">
+		<title>
+			<caption id="291">Contacts</caption>
+			<caption id="66">:Doubles</caption>
+		</title>
+		<link>CRMDoubleContacts.aspx</link>
+	</application>
+	<application id="CRMAccConsistency.aspx?View=1&amp;SystemTab=1">
+		<title>
+			<caption id="3426">Fiancial</caption>
+			<caption id="1868">:Debtor Code</caption>
+			<caption id="1869">+Creditor Code</caption>
+		</title>
+		<link>CRMAccConsistency.aspx?View=1&amp;SystemTab=1</link>
+	</application>
+	-->
+  <application id="SDKCustomSolution.aspx">
+    <title>
+      <caption id="14317">Solutions</caption>
+    </title>
+    <link>SDKCustomSolution.aspx</link>
+    <constraints>
+      <allow>
+        <license>
+          <sdk />
+        </license>
+      </allow>
+    </constraints>
+  </application>
+  <application id="SDKApplicationExtensions.aspx">
+    <title>
+      <caption id="32391">Applications</caption>
+    </title>
+    <link>SDKApplicationExtensions.aspx</link>
+    <constraints>
+      <allow>
+        <license>
+          <sdk />
+        </license>
+      </allow>
+    </constraints>
+  </application>
+  <application id="SDKSettings.aspx">
+    <title>
+      <caption id="8799">Setting</caption>
+    </title>
+    <link>SDKSettings.aspx</link>
+    <constraints>
+      <allow>
+        <license>
+          <sdk />
+        </license>
+      </allow>
+    </constraints>
+  </application>
+  <application id="SysSynonymsLog.aspx">
+    <title>
+      <caption id="4012">Overview</caption>
+    </title>
+    <link>SysSynonymsLog.aspx</link>
+  </application>
+  <application id="SysWebServiceSettings.aspx">
+    <title>
+      <caption id="8799">Settings</caption>
+    </title>
+    <link>SysWebServiceSettings.aspx</link>
+  </application>
+  <application id="SysBackOfficeSettings.aspx">
+    <title>
+      <caption id="36657">Back office connection</caption>
+    </title>
+    <link>SysBackOfficeSettings.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckBackOfficeSettings</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SSRSConfiguration.aspx">
+    <title>
+      <caption id="8799">Settings</caption>
+    </title>
+    <link>SSRSConfiguration.aspx</link>
+  </application>
+  <application id="SysMobileSettings.aspx">
+    <title>
+      <caption id="8799">Settings</caption>
+    </title>
+    <link>SysMobileSettings.aspx</link>
+  </application>
+  <application id="SSRSReportGroups.aspx">
+    <title>
+      <caption id="391">Management</caption>
+    </title>
+    <link>SSRSReportGroups.aspx</link>
+    <constraints>
+      <allow>
+        <userlicensetype>0</userlicensetype>
+      </allow>
+    </constraints>
+  </application>
+  <application id="SSRSSchedules.aspx">
+    <title>
+      <caption id="34892">Schedules</caption>
+    </title>
+    <link>SSRSSchedules.aspx</link>
+  </application>
+  <application id="SSRSSubscriptions.aspx">
+    <title>
+      <caption id="37543">Subscriptions</caption>
+    </title>
+    <link>SSRSSubscriptions.aspx</link>
+    <constraints>
+      <allow>
+        <userlicensetype>0</userlicensetype>
+      </allow>
+    </constraints>
+  </application>
+  <application id="CMDMSettings.aspx">
+    <title>
+      <caption id="8799">Settings</caption>
+    </title>
+    <link>CMDMSettings.aspx</link>
+    <constraints>
+      <allow>
+        <license>
+          <option>291</option>
+        </license>
+      </allow>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.SecurityExtension</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SocialSettings.aspx">
+    <title>
+      <caption id="8799">Settings</caption>
+    </title>
+    <link>SocialSettings.aspx</link>
+  </application>
+  <application id="ESFMonitor.aspx">
+    <title>
+      <caption id="225">Monitor</caption>
+    </title>
+    <link>esfmonitor.aspx</link>
+    <constraints>
+      <allow>
+        <functions>
+          <function>6</function>
+        </functions>
+      </allow>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckMonitorSettings</type>
+      </extension>
+    </constraints>
+  </application>
+
+  <application id="impersonate/SysConnectionSetting.aspx">
+    <title>
+      <caption id="42161">Connection setting</caption>
+    </title>
+    <link>impersonate/SysConnectionSetting.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckConnectionSetting</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="impersonate/SysUpdateDBPassword.aspx">
+    <title>
+      <caption id="42162">Update database password</caption>
+    </title>
+    <link>impersonate/SysUpdateDBPassword.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckPasswordSetting</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SysAttachmentSetup.aspx">
+    <title>
+      <caption id="42830">Attachment settings</caption>
+    </title>
+    <link>SysAttachmentSetup.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckAttachmentSetting</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SysSessionManagement.aspx">
+    <title>
+      <caption id="8799">Settings</caption>
+    </title>
+    <link>SysSessionManagement.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckSessionManagementSetting</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SysPersonalDataClassifications.aspx">
+    <title>
+      <caption id="440">Classification</caption>
+    </title>
+    <link>SysPersonalDataClassifications.aspx</link>
+    <constraints>
+      <allow>
+        <roles>
+          <role>974</role>
+        </roles>
+      </allow>
+    </constraints>
+  </application>
+  <application id="SysPersonalDataActionMain.aspx">
+    <title>
+      <caption id="10756">Selections / Actions</caption>
+    </title>
+    <link>SysPersonalDataActionMain.aspx</link>
+    <constraints>
+      <allow>
+        <roles>
+          <role>974</role>
+        </roles>
+      </allow>
+    </constraints>
+  </application>
+  <application id="SysPersonalDataActionLog.aspx">
+    <title>
+      <caption id="218">Log</caption>
+    </title>
+    <link>SysPersonalDataActionLog.aspx</link>
+    <constraints>
+      <allow>
+        <roles>
+          <role>974</role>
+        </roles>
+      </allow>
+    </constraints>
+  </application>
+  <application id="SysImportBestPractice.aspx">
+    <title>
+      <caption id="43502">Best practices</caption>
+      <caption id="7440">:Import</caption>
+    </title>
+    <link>SysImportBestPractice.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.CheckTemplatingToolAccess</type>
+      </extension>
+    </constraints>
+  </application>
+  <application id="SysJobSettings.aspx">
+    <title>
+      <caption id="8799">Settings</caption>
+    </title>
+    <link>SysJobSettings.aspx</link>
+    <constraints>
+      <extension>
+        <assembly>Exact.Menu.System</assembly>
+        <type>Exact.Menu.System.ManageBackgroundJobSettings</type>
+      </extension>
+    </constraints>
+  </application>
+</applications>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7A102D7-00FE-4645-BB75-1357CB716438}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CSSynergyX.AppSearch.PageExtension</RootNamespace>
+    <AssemblyName>CSSynergyX.AppSearch.PageExtension</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Exact.Common">
+      <HintPath>C:\Exact Synergy Enterprise 501\bin\Exact.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Exact.Core">
+      <HintPath>C:\Exact Synergy Enterprise 501\bin\Exact.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Exact.Web.Standard">
+      <HintPath>C:\Exact Synergy Enterprise 501\bin\Exact.Web.Standard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Exact.Web.UI.Controls">
+      <HintPath>C:\Exact Synergy Enterprise 501\bin\Exact.Web.UI.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Exact.Web.UI.Page">
+      <HintPath>C:\Exact Synergy Enterprise 501\bin\Exact.Web.UI.Page.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="CSSynergyX.AppSearch.Core">
+      <HintPath>C:\Exact Synergy Enterprise 501\bin\CSSynergyX.AppSearch.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Exact Synergy Enterprise 501\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Portal.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetPath)" "C:\Exact Synergy Enterprise 501\BIN\" /Y
+copy "$(TargetPath)" "C:\Exact Synergy Enterprise 503\BIN\" /Y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customsolution code="CSSynergyX.AppSearch">
+  <developer code="777999">CSSynergyX</developer>
+  <title>CSSynergyX - Application Search</title>
+  <description>Application Search</description>
+  <batch>0</batch>
+  <scripts>
+    <createscript></createscript>
+    <updatescripts>
+    </updatescripts>
+  </scripts>
+  <applicationextensions>
+    <applicationextension application="Portal.aspx">
+      <class name="Portal" assembly="CSSynergyX.AppSearch.PageExtension"/>
+    </applicationextension>
+  </applicationextensions>
+</customsolution>

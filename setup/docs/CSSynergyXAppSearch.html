@@ -1,0 +1,105 @@
+<style>
+  .material-input-container {
+    position: relative;
+    margin: 0px 0;
+    width: 300px;
+  }
+
+  .material-input-container input {
+    font-size: 14px;
+    padding: 5px 10px 5px 40px;
+    border: 1px solid white;
+    color: #797575;
+    width: calc(
+      100% - 40px
+    ); /* Adjust width to accommodate the clear button and search icon */
+    outline: none;
+    border-radius: 50px;
+    background: #ddd;
+  }
+
+  .material-input-container input:focus {
+    background-color: white;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    border: 1px solid #e4e0e0;
+  }
+
+  .material-input-container label {
+    position: absolute;
+    top: 6px;
+    left: 40px;
+    font-size: 14px;
+    color: #797575;
+    pointer-events: none;
+    /* transition: all 0.2s ease-out; */
+  }
+
+  .material-input-container input:focus + label,
+  .material-input-container input:not(:placeholder-shown) + label {
+    top: -20px;
+    left: 10px;
+    font-size: 12px;
+    color: #aaa;
+  }
+
+  .material-input-container .search-icon img {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    width: 18px;
+    height: 18px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    color: #ccc;
+  }
+
+  .ui-autocomplete {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 20px;
+    border-radius: 10px;
+    top: 50px;
+  }
+
+  * html .ui-autocomplete {
+    height: 300px;
+  }
+
+  .autocomplete-item-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    border: none;
+  }
+
+  .autocomplete-item-details {
+    font-style: italic;
+    font-size: 0.9em;
+    border: none;
+  }
+
+  .ui-menu .ui-menu-item:hover .ui-menu-item-wrapper,
+  .ui-menu .ui-menu-item:hover .autocomplete-item-details {
+    background-color: #f0f0f0; /* Light grey background on hover */
+  }
+
+  .ui-menu .ui-menu-item:hover .autocomplete-item-title {
+    font-weight: bold;
+  }
+
+  .ui-state-active {
+    border: none !important;
+    background: none !important;
+    background-color: #ccc !important;
+    color: black !important;
+  }
+</style>
+
+<div class="material-input-container">
+  <div class="search-icon">
+    <img src="images/search-group.svg" alt="Search Icon" />
+  </div>
+  <input type="text" id="searchInput" class="" placeholder=" " />
+  <label for="searchInput">Search application...</label>
+</div>

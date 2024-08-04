@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+  <category id="System">
+    <title>
+      <caption id="6358">System</caption>
+    </title>
+    <categories>
+      <category id="Report">
+        <title>
+          <caption id="211">Reports</caption>
+        </title>
+        <categories>
+          <category id="PageViews">
+            <title>
+              <caption id="239">Page views</caption>
+            </title>
+            <applications>
+              <application id="SysAppStats.aspx?_View=1&amp;ViewState=1" />
+              <application id="SysAppStats.aspx?_View=0&amp;ViewState=0" />
+              <application id="SysAppLogHour.aspx" />
+              <application id="SysAppLogTopDays.aspx" />
+            </applications>
+          </category>
+          <category id="Activity">
+            <title>
+              <caption id="3201">Activity</caption>
+            </title>
+            <applications>
+              <application id="SysCurrentActivity.aspx" />
+              <application id="SysReadRecent.aspx" />
+              <application id="SysSessionContent.aspx" />
+            </applications>
+          </category>
+          <category id="Log">
+            <title>
+              <caption id="218">Log</caption>
+            </title>
+            <applications>
+              <application id="SysAppLog.aspx" />
+              <application id="SysDataLog.aspx" />
+              <application id="SysErrorLog.aspx" />
+              <application id="SysProcessLog.aspx" />
+              <application id="SysPerformance.aspx" />
+              <application id="SysLoginLog.aspx" />
+              <application id="SysLicenseLog.aspx" />
+            </applications>
+          </category>
+          <category id="Database">
+            <title>
+              <caption id="5454">Database</caption>
+            </title>
+            <applications>
+              <application id="SysDatabaseStats.aspx" />
+              <application id="SysDatabaseLocations.aspx" />
+              <application id="SysFiles.aspx" />
+            </applications>
+          </category>
+          <category id="SDK">
+            <title>
+              <caption id="14242">Add-on</caption>
+            </title>
+            <applications>
+              <application id="SDKCustomSolution.aspx" />
+            </applications>
+          </category>
+          <category id="Synonyms">
+            <title>
+              <caption id="50244">Synonyms</caption>
+            </title>
+            <applications>
+              <application id="SysSynonymsLog.aspx" />
+            </applications>
+          </category>
+          <category id="BackOfficeIntegration">
+            <title>
+              <caption id="38022">Back office integration</caption>
+            </title>
+            <applications>
+              <application id="ESFMonitor.aspx" />
+            </applications>
+          </category>
+          <category id="ELIS">
+            <title>
+              <caption id="0">Exact Lightweight Integration Server</caption>
+            </title>
+            <applications>
+              <application id="ELISMonitor.aspx" />
+              <application id="ELISEventMonitor.aspx" />
+            </applications>
+          </category>
+        </categories>
+      </category>
+      <category id="Setup">
+        <title>
+          <caption id="16572">Setup</caption>
+        </title>
+        <categories>
+          <category id="SettingsGeneral">
+            <title>
+              <caption id="8799">Settings</caption>
+              <caption id="8606">-General</caption>
+            </title>
+            <applications>
+              <application id="WflCalendarSettings.aspx" />
+              <application id="LogProcessTypes.aspx" />
+              <application id="SysSettings.aspx" />
+              <application id="MenuCustomize.aspx" />
+            </applications>
+          </category>
+          <category id="SettingsDatabase">
+            <title>
+              <caption id="8799">Settings</caption>
+              <caption id="5454">-Database</caption>
+            </title>
+            <applications>
+              <application id="SysDataLogSettings.aspx" />
+              <application id="SysLogSettings.aspx" />
+              <application id="SysQueryTimeOuts.aspx" />
+              <application id="impersonate/SysConnectionSetting.aspx" />
+              <application id="impersonate/SysUpdateDBPassword.aspx" />
+              <application id="SysAttachmentSetup.aspx" />
+            </applications>
+          </category>
+          <category id="SettingsXML">
+            <title>
+              <caption id="8799">Settings</caption>
+              <caption id="0">-XML</caption>
+            </title>
+            <applications>
+              <application id="eExact-Schema.xsd" />
+              <application id="XMLDocumentation.aspx?Action=1" />
+            </applications>
+          </category>
+          <category id="Security">
+            <title>
+              <caption id="32783">Security</caption>
+            </title>
+            <applications>
+              <application id="SysDelegation.aspx" />
+              <application id="SysRoles.aspx" />
+              <application id="SysFunctions.aspx" />
+              <application id="SysAccessServers.aspx" />
+              <application id="SysLogOff.aspx" />
+            </applications>
+          </category>
+          <category id="Metadata">
+            <title>
+              <caption id="0">Metadata</caption>
+            </title>
+            <applications>
+              <application id="SysMetadataExport.aspx" />
+              <application id="SysMetadataImport.aspx" />
+            </applications>
+          </category>
+          <category id="XML">
+            <title>
+              <caption id="0">XML</caption>
+            </title>
+            <applications>
+              <application id="XMLUpload.aspx?ui=1" />
+              <application id="XMLDownload.aspx?ui=1" />
+              <application id="XMLTopics.aspx" />
+              <application id="XMLStatus.aspx" />
+              <application id="XMLReplicationSources.aspx" />
+              <application id="XMLReplications.aspx" />
+            </applications>
+          </category>
+          <category id="References">
+            <title>
+              <caption id="27514">References</caption>
+            </title>
+            <applications>
+              <application id="SysCountries.aspx" />
+              <application id="SysCountryClassifications.aspx" />
+              <application id="FinCurrencies.aspx" />
+              <application id="SysTimeZones.aspx" />
+              <application id="SysTitles.aspx" />
+            </applications>
+          </category>
+          <category id="Terms">
+            <title>
+              <caption id="990">Terms</caption>
+            </title>
+            <applications>
+              <application id="SysTermSearch.aspx" />
+              <application id="SysTermSearch.aspx?BCAction=1&amp;AllCustomized=1" />
+            </applications>
+          </category>
+          <category id="FullText">
+            <title>
+              <caption id="772">Full-text index</caption>
+            </title>
+            <applications>
+              <application id="SysWords.aspx" />
+              <application id="SysNoiseWords.aspx" />
+              <application id="SysSynonyms.aspx" />
+            </applications>
+          </category>
+          <category id="License">
+            <title>
+              <caption id="9749">License</caption>
+            </title>
+            <applications>
+              <application id="SysLicenseInfo.aspx" />
+              <application id="SysLicenseUpdate.aspx" />
+              <application id="SysLicenseRestore.aspx" />
+              <application id="SysLicenseSettings.aspx" />
+              <application id="SysGracePeriodSetting.aspx" />
+              <application id="SysOTPList.aspx" />
+            </applications>
+          </category>
+          <category id="Database">
+            <title>
+              <caption id="5454">Database</caption>
+            </title>
+            <applications>
+              <application id="impersonate/SysNewDatabase.aspx?ShowClose=1" />
+              <application id="SysSetupCompany.aspx" />
+            </applications>
+          </category>
+          <category id="Other">
+            <title>
+              <caption id="8887">Other</caption>
+            </title>
+            <applications>
+              <application id="SysSOIInstalls.aspx" />
+              <application id="ESEDocumentDownloader.msi" />
+              <application id="DocSearch.aspx?SysSearch=1&amp;DocRepair=1" />
+            </applications>
+          </category>
+          <category id="DTAPManagement">
+            <title>
+              <caption id="40399">DTAP Management</caption>
+            </title>
+            <applications>
+              <application id="CNFDTAPManagement.aspx"	/>
+            </applications>
+          </category>
+          <category id="Repository">
+            <title>
+              <caption id="14621">Repository</caption>
+            </title>
+            <applications>
+              <application id="ERGroups.aspx" />
+              <application id="SysRebuildRepository.aspx" />
+            </applications>
+          </category>
+          <!--
+					<category id="RepairLogistics">
+						<title>
+							<caption id="710">Repair</caption>
+							<caption id="19646">:Logistics</caption>
+						</title>
+						<applications>
+							<application id="LogRepConsistencyChk.aspx" />
+							<application id="LogRepCheckPurItems.aspx" />
+							<application id="LogRepCheckSalesItems.aspx" />
+							<application id="LogRepCheckSerialNum.aspx" />
+							<application id="LogRepChkItemAccounts.aspx" />
+							<application id="LogRepCheckPurAccount.aspx" />
+							<application id="LogRepCheckPaymentCondition.aspx" />
+							<application id="LogChkDeliveryMethod.aspx" />
+							<application id="LogRepChkSalesOrders.aspx" />
+							<application id="LogRepCheckInvoiceCodes.aspx" />
+							<application id="LogRepCheckSelectionCodes.aspx" />
+						</applications>
+					</category>
+					<category id="RepairCRM">
+						<title>
+							<caption id="710">Repair</caption>
+							<caption id="1">:CRM</caption>
+						</title>
+						<applications>
+							<application id="CRMRepair.aspx?Mode=1" />
+							<application id="CRMRepair.aspx?Mode=2" />
+							<application id="CRMRepair.aspx?Mode=3" />
+							<application id="CRMDoubleContacts.aspx" />
+							<application id="CRMAccConsistency.aspx?View=1&amp;SystemTab=1" />
+						</applications>
+					</category>
+					-->
+          <category id="SDK">
+            <title>
+              <caption id="14242">Add-on</caption>
+            </title>
+            <applications>
+              <application id="SDKSettings.aspx" />
+            </applications>
+          </category>
+          <category id="EntityService">
+            <title>
+              <caption id="35851">Web Services</caption>
+            </title>
+            <applications>
+              <application id="SysWebServiceSettings.aspx"	/>
+            </applications>
+          </category>
+          <category id="MobileApps">
+            <title>
+              <caption id="41666">Mobile Apps</caption>
+            </title>
+            <applications>
+              <application id="SysMobileSettings.aspx"	/>
+            </applications>
+          </category>
+          <category id="BackOffice">
+            <title>
+              <caption id="15">Back office</caption>
+            </title>
+            <applications>
+              <application id="SysBackOfficeSettings.aspx"	/>
+            </applications>
+          </category>
+          <category id="ReportingServicesIntegration">
+            <title>
+              <caption id="37205">Reporting Services Integration</caption>
+            </title>
+            <applications>
+              <application id="SSRSConfiguration.aspx" />
+              <application id="SSRSReportGroups.aspx" />
+              <application id="SSRSSchedules.aspx" />
+              <application id="SSRSSubscriptions.aspx" />
+            </applications>
+          </category>
+          <category id="CMDM">
+            <title>
+              <caption id="37756">Central Master Data Management</caption>
+            </title>
+            <applications>
+              <application id="CMDMSettings.aspx" />
+            </applications>
+          </category>
+          <category id="SocialCollaboration">
+            <title>
+              <caption id="42816">Social Collaboration</caption>
+            </title>
+            <applications>
+              <application id="SocialSettings.aspx" />
+            </applications>
+          </category>
+          <category id="SessionManagement">
+            <title>
+              <caption id="42892">Session Management</caption>
+            </title>
+            <applications>
+              <application id="SysSessionManagement.aspx" />
+            </applications>
+          </category>
+          <category id="PersonalData">
+            <title>
+              <caption id="43066">Personal Data</caption>
+            </title>
+            <applications>
+              <application id="SysPersonalDataClassifications.aspx" />
+              <application id="SysPersonalDataActionMain.aspx" />
+              <application id="SysPersonalDataActionLog.aspx" />
+            </applications>
+          </category>
+          <category id="ELIS">
+            <title>
+              <caption id="0">Exact Lightweight Integration Server</caption>
+            </title>
+            <applications>
+              <application id="ELISSolutions.aspx" />
+            </applications>
+          </category>
+          <category id="TemplatingTools">
+            <title>
+              <caption id="43508">Templating tools</caption>
+            </title>
+            <applications>
+              <application id="SysImportBestPractice.aspx" />
+            </applications>
+          </category>
+          <category id="BackgroundJobs">
+            <title>
+              <caption id="43535">Background Processes</caption>
+            </title>
+            <applications>
+              <application id="SysJobSettings.aspx" />
+            </applications>
+          </category>
+        </categories>
+      </category>
+    </categories>
+  </category>
+</menu>

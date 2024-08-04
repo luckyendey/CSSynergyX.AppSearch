@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+  <category id="GLMSysCI">
+    <title>
+      <caption id="0">RPA</caption>
+    </title>
+    <categories>
+      <category id="Entry">
+        <title>
+          <caption id="561">Entry</caption>
+        </title>
+        <categories>
+          <category id="RulesEngine">
+            <title>
+              <caption id="9289">Rules</caption>
+            </title>
+            <applications>
+              <application id="GLMSysCIRulesNew" />
+              <application id="GLMSysCIRulesNewGroup"/>  
+            </applications>
+          </category>
+          <category id="Views">
+            <title>
+              <caption id="34780">Views</caption>
+            </title>
+            <applications>
+              <application id="GLMSysCIViewNew" />
+            </applications>
+          </category>
+        <category id="Integration">
+            <title>
+              <caption id="0">Integration</caption>
+            </title>
+            <applications>
+              <application id="GLMSysCIDataLinkMaint.aspx" />
+            </applications>
+          </category>
+        </categories>
+      </category>
+      <category id="Report">
+        <title>
+          <caption id="211">Reports</caption>
+        </title>
+        <categories>
+          <category id="Integrations">
+            <title>
+              <caption id="0">Integration</caption>
+            </title>
+            <applications>
+              <application id="GLMSysCIPendingSearch.aspx"/>
+              <application id="GLMSysCILogSearch.aspx"/>
+              <application id="GLMSysCIDataLinkSearch.aspx" />
+            </applications>
+          </category>
+          <category id="View">
+            <title>
+              <caption id="34780">Views</caption>
+            </title>
+            <applications>
+              <application id="GLMSysCIViewList" />
+              <application id="GLMSysCIViewSectionList" />
+              <application id="GLMSysCIViewMonitorList" />
+            </applications>
+          </category>
+        <category id="ViewRules">
+            <title>
+              <caption id="9289">Rules</caption>
+            </title>
+            <applications>
+              <application id="GLMSysCIRulesList" />
+              <application id="GLMSysCIRulesLog" />
+              <application id="GLMSysCIRulesReport"/>
+            </applications>
+          </category>
+          <category id="LogSystemPlus">
+            <title>
+              <caption id="0">Log</caption>
+            </title>
+            <applications>
+              <application id="GLMSysCoreEmailLog.aspx" />
+            </applications>
+          </category>
+        </categories>
+      </category>
+      <category id="Setup">
+        <title>
+          <caption id="16572">Setup</caption>
+        </title>
+        <categories>
+          <category id="Connection">
+            <title>
+              <caption id="27055">Connection</caption>
+            </title>
+            <applications>
+              <application id="GLMSysCIProviderList.aspx"/>
+              <application id="GLMSysCIConnectionList.aspx"/>
+            </applications>
+          </category>
+        <category id="IntegrationEntity">
+            <title>
+              <caption id="0">Integration</caption>
+            </title>
+            <applications>
+              <application id="GLMSysCIEntityList.aspx"/>
+              <application id="GLMSysCIEntityMappingList.aspx"/>
+            </applications>
+          </category>
+        <category id="Setting">
+            <title>
+              <caption id="19616">Setting</caption>
+            </title>
+            <applications>
+              <application id="GLMSysCISettings.aspx"/>
+              <application id="GLMSysCIRulesSettings"/>
+              <application id="GLMSysCoreSettings"/>
+            </applications>
+          </category>
+        <category id="Templates">
+            <title>
+              <caption id="6317">Templates</caption>
+            </title>
+            <applications>
+              <application id="GLMSysCIImportTemplates"/>
+              <application id="GLMSysCIExportTemplates"/>
+              <application id="GLMSysCIRulesImport"/>
+              <application id="GLMSysCIRulesExport"/>
+            </applications>
+        </category>
+        <category id="Lines">
+            <title>
+              <caption id="15426">Lines</caption>
+            </title>
+            <applications>
+              <application id="GLMSysWorkflowPlusGenerateLinesView.aspx"/>
+            </applications>
+        </category>
+        <category id="CrystalReport">
+          <title>
+            <caption id="0">Crystal Report</caption>
+          </title>
+          <applications>
+            <application id="GLMSysCICrystalReportSetting"/>
+          </applications>
+        </category>
+		<category id="GLMLicense">
+          <title>
+            <caption id="9749">Licence</caption>
+          </title>
+          <applications>
+            <application id="GLMSysLicenseUpdate.aspx"/>
+          </applications>
+        </category>
+        </categories>
+      </category>
+    </categories>
+  </category>
+</menu>
