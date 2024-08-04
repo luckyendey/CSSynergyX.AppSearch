@@ -69,36 +69,36 @@ namespace CSSynergyX.AppSearch.Core
         public static List<Application> GetFilteredApplication(string input, List<Application> applications, int threshold = 55, int recordCount = 20)
         {
             var combinedTitles = applications
-                .Select(app => new
-                {
-                    Application = app,
-                    CombinedTitle = $"{app.Title}-{app.ModuleCaption}-{app.CategoryLevel1Caption}-{app.CategoryLevel2Caption}"
-                })
-                .ToList();
+            .Select(app => new
+            {
+                Application = app,
+                CombinedTitle = $"{app.Title} {app.ModuleCaption} {app.CategoryLevel1Caption} {app.CategoryLevel2Caption}"
+            })
+            .ToList();
 
             var matches = combinedTitles.Select(title => new
             {
-                CombinedTitle = title.CombinedTitle,
+                title.CombinedTitle,
                 Ratio = Fuzz.TokenSortRatio(input, title.CombinedTitle)
             })
-                .OrderByDescending(x => x.Ratio)
-                .ToList();
+            .OrderByDescending(x => x.Ratio)
+            .ToList();
 
             var matchedApplications = matches
-                .Select(match =>
+            .Select(match =>
+            {
+                var combinedTitle = combinedTitles.FirstOrDefault(ct => ct.CombinedTitle.ToLower() == match.CombinedTitle.ToLower());
+                if (combinedTitle != null)
                 {
-                    var combinedTitle = combinedTitles.FirstOrDefault(ct => ct.CombinedTitle == match.CombinedTitle);
-                    if (combinedTitle != null)
-                    {
-                        var application = combinedTitle.Application;
-                        application.Score = match.Ratio; // Assign the score
-                        return application;
-                    }
-                    return null;
-                })
-                .OrderByDescending(x => x.Score)
-                .Take(recordCount)
-                .ToList();
+                    var application = combinedTitle.Application;
+                    application.Score = match.Ratio; // Assign the score
+                    return application;
+                }
+                return null;
+            })
+            .OrderByDescending(x => x.Score)
+            .Take(recordCount)
+            .ToList();
 
             return matchedApplications;
         }
