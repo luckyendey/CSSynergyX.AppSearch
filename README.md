@@ -9,7 +9,7 @@ The **SynergyX AppSearch** is a simple addon designed to enhance the user experi
 To install the **SynergyX AppSearch** tool, follow these steps:
 
 1. **Download the Addon:**
-   - Download the latest version of the addon from the [releases page](#https://github.com/luckyendey/CSSynergyX.AppSearch/releases).
+   - Download the latest version of the addon from the <a href="https://github.com/luckyendey/CSSynergyX.AppSearch/releases">releases page</a>.
 
 2. **Install the Addon:**
    - Extract the contents of the downloaded ZIP file (e.g., SynergyX.AppSearch-v1.x.zip) to a folder on your computer.
@@ -41,7 +41,7 @@ Once the addon is installed, you can start using the search functionality as fol
 I greatly value contributions of all kinds, including those related to **security**, **performance**, **UI/UX**, and more, to enhance the SynergyX AppSearch addon. Here’s how you can get involved:
 
 1. **Fork the Repository:**
-   - Go to the [repository](#https://github.com/luckyendey/CSSynergyX.AppSearch) and click on **Fork** to create your own copy.
+   - <p>Go to the <a href="https://github.com/luckyendey/CSSynergyX.AppSearch">repository</a> and click on Fork to create your own copy.</p>
 
 2. **Make Your Changes:**
    - Clone your forked repository to your local machine:
@@ -64,5 +64,5 @@ I greatly value contributions of all kinds, including those related to **securit
    - Open a pull request in the original repository to propose your changes.
 
 4. **Report Issues:**
-   - If you find any bugs or have feature requests, please open an issue in the [issues tracker](#).
+   - If you find any bugs or have feature requests, please open an issue in the <a href="https://github.com/luckyendey/CSSynergyX.AppSearch/issues">issues tracker</a>.
 
