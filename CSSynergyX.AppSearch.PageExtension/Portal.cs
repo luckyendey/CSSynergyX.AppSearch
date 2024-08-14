@@ -10,6 +10,13 @@ namespace CSSynergyX.AppSearch.PageExtension
             System.Web.UI.HtmlControls.HtmlGenericControl dMain = (System.Web.UI.HtmlControls.HtmlGenericControl)page.FindControl("dMain");
             if (dMain != null)
             {
+                string cacheName = "CSSynergyXApplications";
+
+                if (env.Cache[cacheName] == null)
+                {
+                    env.Cache.Add(cacheName, CSSynergyX.AppSearch.Core.Tools.GetApplications(), (7 * 24 * 60));
+                }
+
                 // Create the <script> element
                 HtmlGenericControl scriptTag = new HtmlGenericControl("script");
                 scriptTag.Attributes.Add("type", "text/javascript");

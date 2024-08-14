@@ -24,7 +24,7 @@
         else
         {
             _applications = CSSynergyX.AppSearch.Core.Tools.GetApplications();
-            env.Cache.Add("CSSynergyXApplications", _applications, (7 * 24 * 60));
+            env.Cache.Add(cacheName, _applications, (7 * 24 * 60));
         }
     }
 
