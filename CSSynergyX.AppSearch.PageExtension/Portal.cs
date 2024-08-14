@@ -1,4 +1,5 @@
-﻿using System.Web.UI.HtmlControls;
+﻿using System;
+using System.Web.UI.HtmlControls;
 
 namespace CSSynergyX.AppSearch.PageExtension
 {
@@ -14,7 +15,7 @@ namespace CSSynergyX.AppSearch.PageExtension
 
                 if (env.Cache[cacheName] == null)
                 {
-                    env.Cache.Add(cacheName, CSSynergyX.AppSearch.Core.Tools.GetApplications(), (7 * 24 * 60));
+                    env.Cache.Add(cacheName, CSSynergyX.AppSearch.Core.Tools.GetApplications(), (int)TimeSpan.FromDays(7).TotalMinutes);
                 }
 
                 // Create the <script> element
