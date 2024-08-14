@@ -16,9 +16,6 @@ function initAppSearch() {
                     $.ajax({
                         url: "CSSynergyXAppSearchCallback.aspx?Action=1&InputSearch=" + request.term,
                         dataType: "json",
-                        data: {
-                            term: request.term
-                        },
                         success: function( data ) {
                             response( $.map(data, function( item ) {
                                 return {
@@ -39,6 +36,9 @@ function initAppSearch() {
                     if (waitMessage !== undefined) {
                         waitMessage.show();
                     }
+                },
+                open: function () {
+                    $(this).data('ui-autocomplete').menu.element.scrollTop(0);
                 }
             }).data("ui-autocomplete")._renderItem = function (ul, item) {
                 return $("<li>")

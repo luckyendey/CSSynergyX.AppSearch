@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 
 namespace CSSynergyX.AppSearch.Core.Entities
 {
@@ -22,10 +23,14 @@ namespace CSSynergyX.AppSearch.Core.Entities
         public string Caption3 { get; set; }
 
         public string Title
-        { get { return string.Join(" ", new[] { Caption1, Caption2, Caption3 }).Trim(); } }
+        { get { return string.Join(" ", new[] { Caption1, Caption2, Caption3 }).Trim().Replace(":", ""); } }
 
         public string Link { get; set; }
         public bool HasAccess { get; set; }
+        public string CompositeString
+        {
+            get { return $"{Title} {ModuleCaption} {CategoryLevel1Caption} {CategoryLevel2Caption}"; }
+        }
         public int Score { get; set; }
     }
 }

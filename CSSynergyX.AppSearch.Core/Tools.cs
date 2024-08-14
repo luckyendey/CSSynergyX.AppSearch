@@ -68,39 +68,42 @@ namespace CSSynergyX.AppSearch.Core
         /// </remarks>
         public static List<Application> GetFilteredApplication(string input, List<Application> applications, int threshold = 55, int recordCount = 20)
         {
-            var combinedTitles = applications
-                .Select(app => new
-                {
-                    Application = app,
-                    CombinedTitle = $"{app.Title}-{app.ModuleCaption}-{app.CategoryLevel1Caption}-{app.CategoryLevel2Caption}"
-                })
-                .ToList();
-
-            var matches = combinedTitles.Select(title => new
+            for (int i = 0; i < applications.Count; i++)
             {
-                CombinedTitle = title.CombinedTitle,
-                Ratio = Fuzz.TokenSortRatio(input, title.CombinedTitle)
-            })
-                .OrderByDescending(x => x.Ratio)
-                .ToList();
+                int titleScore = Fuzz.TokenSortRatio(input, applications[i].Title);
+                int moduleScore = 0;
+                int category1Score = 0;
+                int category2Score = 0;
+                int compositeScore = 0;
 
-            var matchedApplications = matches
-                .Select(match =>
+                if (!string.IsNullOrEmpty(applications[i].ModuleCaption))
                 {
-                    var combinedTitle = combinedTitles.FirstOrDefault(ct => ct.CombinedTitle == match.CombinedTitle);
-                    if (combinedTitle != null)
-                    {
-                        var application = combinedTitle.Application;
-                        application.Score = match.Ratio; // Assign the score
-                        return application;
-                    }
-                    return null;
-                })
-                .OrderByDescending(x => x.Score)
+                    moduleScore = Fuzz.Ratio(input.ToLower(), applications[i].ModuleCaption.ToLower());
+                }
+
+                if (!string.IsNullOrEmpty(applications[i].CategoryLevel1Caption))
+                {
+                    category1Score= Fuzz.Ratio(input.ToLower(), applications[i].CategoryLevel1Caption.ToLower());
+                }
+                
+                if (!string.IsNullOrEmpty(applications[i].CategoryLevel2Caption))
+                {
+                    category2Score = Fuzz.Ratio(input.ToLower(), applications[i].CategoryLevel2Caption.ToLower());
+                }
+
+                compositeScore = Fuzz.TokenSortRatio(input.ToLower(), applications[i].CompositeString.ToLower());
+
+                double combinedScore = ((titleScore * 4) + moduleScore + category1Score + category2Score + (compositeScore * 3)) / 10.0;
+
+                combinedScore = Math.Min(combinedScore, 100);
+
+                applications[i].Score = (int)combinedScore;
+            }
+
+            return applications
+                .OrderByDescending(app => app.Score)
                 .Take(recordCount)
                 .ToList();
-
-            return matchedApplications;
         }
 
         public List<Application> ReadApplicationFile(string filePath)
@@ -174,7 +177,7 @@ namespace CSSynergyX.AppSearch.Core
                     application.CategoryLevel1TermId = Convert.ToInt32(_xmlService.SelectSingleNode(element.ParentNode.ParentNode.ParentNode.ParentNode, "title/caption").Attributes["id"].Value);
 
                     application.CategoryLevel2 = element.ParentNode.ParentNode.Attributes["id"].Value;
-                    application.CategoryLevel2Caption = element.ParentNode.ParentNode.InnerText;
+                    application.CategoryLevel2Caption = element.ParentNode.ParentNode.InnerText.Replace(":", " ");
                     application.CategoryLevel2TermId = Convert.ToInt32(_xmlService.SelectSingleNode(element.ParentNode.ParentNode, "title/caption").Attributes["id"].Value);
                 }
             }

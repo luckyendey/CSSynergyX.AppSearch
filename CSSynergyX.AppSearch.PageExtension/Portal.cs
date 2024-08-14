@@ -1,4 +1,5 @@
-﻿using System.Web.UI.HtmlControls;
+﻿using System;
+using System.Web.UI.HtmlControls;
 
 namespace CSSynergyX.AppSearch.PageExtension
 {
@@ -10,6 +11,13 @@ namespace CSSynergyX.AppSearch.PageExtension
             System.Web.UI.HtmlControls.HtmlGenericControl dMain = (System.Web.UI.HtmlControls.HtmlGenericControl)page.FindControl("dMain");
             if (dMain != null)
             {
+                string cacheName = "CSSynergyXApplications";
+
+                if (env.Cache[cacheName] == null)
+                {
+                    env.Cache.Add(cacheName, CSSynergyX.AppSearch.Core.Tools.GetApplications(), (int)TimeSpan.FromDays(7).TotalMinutes);
+                }
+
                 // Create the <script> element
                 HtmlGenericControl scriptTag = new HtmlGenericControl("script");
                 scriptTag.Attributes.Add("type", "text/javascript");

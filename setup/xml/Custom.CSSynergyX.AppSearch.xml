@@ -3,7 +3,7 @@
   <developer code="777999">CSSynergyX</developer>
   <title>CSSynergyX - Application Search</title>
   <description>Application Search</description>
-  <batch>0</batch>
+  <batch>1</batch>
   <scripts>
     <createscript></createscript>
     <updatescripts>
