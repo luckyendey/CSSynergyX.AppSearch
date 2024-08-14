@@ -2,7 +2,7 @@
 
 ## Summary
 
-The **SynergyX AppSearch** is a powerful addon designed to enhance the user experience within Exact Synergy Enterprise. This addon provides a seamless search functionality, allowing users to quickly locate applications by typing in a search box.
+The **SynergyX AppSearch** is a simple addon designed to enhance the user experience within Exact Synergy Enterprise. This addon provides a seamless search functionality, allowing users to quickly locate applications by typing in a search box.
 
 ## Installation
 
@@ -18,7 +18,7 @@ To install the **SynergyX AppSearch** tool, follow these steps:
 
 3. **Verify Installation:**
    - Open Exact Synergy Enterprise application.
-   - The search box will show next to the notification icon.
+   - The search box will show on the left of the notification icon.
    - ![Description of the image](misc/images/img01.png)
 
 ## How to Use
@@ -26,9 +26,11 @@ To install the **SynergyX AppSearch** tool, follow these steps:
 Once the addon is installed, you can start using the search functionality as follows:
 
 1. **Enter Search Query:**
-   - Type the name or partial name of the application you are looking for in the search box.
+   - Type the name or part of the name of the application you are looking for in the search box.
+   - Even if you type the words in the wrong order and typo, the search will still work (e.g., "nw requset" for "Request New").
+   - Since the the "Settings" application is present in almost every module, you can also type a combination of module name, menu tab, group, and application name (e.g., type "system dtap setting" to find the Settings application under "Modules -> System -> Setup -> DTAP Management - Settings").
 
-2. **View Results:**
+1. **View Results:**
    - As you type, the search box will display a list of matching applications.
    - Click on an application from the search results to be redirected to its details page.
 - ![Description of the image](misc/images/img02.png)
