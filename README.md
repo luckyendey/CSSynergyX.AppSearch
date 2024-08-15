@@ -2,16 +2,16 @@
 
 ## Summary
 
-The **SynergyX AppSearch** is a simple addon designed to enhance the user experience within Exact Synergy Enterprise. This addon provides a seamless search functionality, allowing users to quickly locate applications by typing in a search box.
+The **SynergyX AppSearch** is a simple add-in designed to enhance the user experience within Exact Synergy Enterprise. This add-in provides a seamless search functionality, allowing users to quickly locate applications by typing in a search box.
 
 ## Installation
 
 To install the **SynergyX AppSearch** tool, follow these steps:
 
-1. **Download the Addon:**
-   - Download the latest version of the addon from the <a href="https://github.com/luckyendey/CSSynergyX.AppSearch/releases">releases page</a>.
+1. **Download the Add-in:**
+   - Download the latest version of the add-in from the <a href="https://github.com/luckyendey/CSSynergyX.AppSearch/releases">releases page</a>.
 
-2. **Install the Addon:**
+2. **Install the Add-in:**
    - Extract the contents of the downloaded ZIP file (e.g., SynergyX.AppSearch-v1.x.zip) to a folder on your computer.
    - Copy all the extracted files and folders from SynergyX.AppSearch-v1.x directory.
    - Paste these files into the installation directory of your Exact Synergy Enterprise application. Ensure that you replace any existing files if prompted.
@@ -23,7 +23,7 @@ To install the **SynergyX AppSearch** tool, follow these steps:
 
 ## How to Use
 
-Once the addon is installed, you can start using the search functionality as follows:
+Once the add-in is installed, you can start using the search functionality as follows:
 
 1. **Enter Search Query:**
    - Type the name or part of the name of the application you are looking for in the search box.
@@ -38,7 +38,7 @@ Once the addon is installed, you can start using the search functionality as fol
 
 ## How to Contribute
 
-I greatly value contributions of all kinds, including those related to **security**, **performance**, **UI/UX**, and more, to enhance the SynergyX AppSearch addon. Here’s how you can get involved:
+I greatly value contributions of all kinds, including those related to **security**, **performance**, **UI/UX**, and more, to enhance the SynergyX AppSearch add-in. Here’s how you can get involved:
 
 1. **Fork the Repository:**
    - <p>Go to the <a href="https://github.com/luckyendey/CSSynergyX.AppSearch">repository</a> and click on Fork to create your own copy.</p>
@@ -65,4 +65,8 @@ I greatly value contributions of all kinds, including those related to **securit
 
 4. **Report Issues:**
    - If you find any bugs or have feature requests, please open an issue in the <a href="https://github.com/luckyendey/CSSynergyX.AppSearch/issues">issues tracker</a>.
+
+## Credits
+
+- Special thanks to the creators and maintainers of <a href="https://github.com/JakeBayer/FuzzySharp">FuzzySharp</a>. This library significantly simplified the implementation and made this project possible.
 
